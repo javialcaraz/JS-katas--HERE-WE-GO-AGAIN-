@@ -41,7 +41,7 @@ const kata4heading = document.createElement('h1')
 const kata4list = document.createElement('ul')
 kata4heading.append('kata 4')
 mainElement.append(kata4heading)
-for (let counter = 5; counter <=20; counter += 5) {
+for (let counter = 5; counter <=100; counter += 5) {
     kata4list.innerHTML += ('<li>' + counter + '</li>')
     mainElement.append(kata4list)
 }
